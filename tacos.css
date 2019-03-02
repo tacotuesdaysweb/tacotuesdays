@@ -1,0 +1,143 @@
+body{
+  background: #87fffd; 
+  background: -moz-linear-gradient(-45deg, #87fffd 0%, #e93cec 100%); 
+  background: -webkit-linear-gradient(-45deg, #87fffd 0%,#e93cec 100%); 
+  background: linear-gradient(135deg, #87fffd 0%,#e93cec 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87fffd', endColorstr='#e93cec',GradientType=1 );
+  height: 100%;
+}
+
+#post{
+  background: #C0C0C0;
+  margin: auto;
+  width: 500px;
+  height: auto;
+  border-top: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+
+div.title{
+  height:18px;
+  width:100%;
+  background:#000080;
+  color:#FFF;
+}
+img.title{
+  float:left;
+}
+p.title{
+  margin:2px 0 0 1px;
+  float:left;
+  font-family:Tahoma;
+  font-weight:bold;
+  font-size:11px;
+}
+.title button{
+  /*position:absolute;
+  right:3px;
+  top:3px;*/
+  margin:2px 2px 2px 0;
+  float:right;
+  width:14px;
+  height:13.5px;
+  background:#C0C0C0;
+  border-width:1px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  padding:0;
+  font-size:9px;
+  font-weight:bold;
+  font-family:Tahoma;
+  text-align:center;
+  focus:none;
+}
+
+#pnav{
+  margin: 2px 0px 0px 2px;
+  background-color: #00007f;
+  width: 98%;
+  height: 16px;
+  color: #FFFFFF;
+  padding: 0px 0px 2px 2px;
+}
+.pnav button{
+  /*position:absolute;
+  right:3px;
+  top:3px;*/
+  margin:2px 2px 2px 0;
+  float:right;
+  width:14px;
+  height:13.5px;
+  background:#C0C0C0;
+  border-width:1px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  padding:0;
+  font-size:9px;
+  font-weight:bold;
+  font-family:Tahoma;
+  text-align:center;
+}
+
+.pbuttons{
+  float: right;
+  padding: 2px 2px 2px 0px;
+}
+
+#content{
+  width: 97%;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 0%;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  cursor: pointer;
+}
+
+#noter{
+  margin: 0% 1% 1% 1%;
+  width: auto;
+  background: #C0C0C0;
+  
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row; 
+  flex-direction: row;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+.notebox{  
+  flex-grow: 1;
+  margin: auto;
+  width: auto;
+  text-align:center;
+  padding-left: 2px;
+  padding-right: 0px;
+  color: #000000;
+  border-top: 1px solid #929292;
+  border-left: 1px solid #929292;
+  border-bottom: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+}
+
+div.body button{
+  font-family:"MS Sans Serif";
+  font-size:11px;
+  outline:1px solid #000000;
+  background:#C0C0C0;
+  border-width:1px;
+  border-style:solid;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  padding:4px 10px;
+  margin:20px auto 3px;
+  display:block;
+  position:relative;
+  bottom:0px;
+}
+button:focus{
+  outline:none;
+}
