@@ -25,10 +25,11 @@ var tacoClick = function(){
 }
 
 var exitClick = function(){
-  var x = document.getElementById("post");
-  x.style.display = "none";
-  var bb = document.getElementById("secret");
-  bb.style.display = "block";
+  // var x = document.getElementById("post");
+  // x.style.display = "none";
+  // var bb = document.getElementById("secret");
+  // bb.style.display = "block";
+  window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 }
 
 var questionClick = function(){
@@ -52,8 +53,8 @@ var questionClick = function(){
 }
 
 var bigBoiClick = function(){
-  var x = document.getElementById("post");
-  x.style.display = "block";
-  var bb = document.getElementById("secret");
-  bb.style.display = "none";
+  // var x = document.getElementById("post");
+  // x.style.display = "block";
+  // var bb = document.getElementById("secret");
+  // bb.style.display = "none";
 }
