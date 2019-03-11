@@ -37,7 +37,7 @@ var questionClick = function(){
     ['/resources/NeedYou.wav'],
     ['/resources/Yousuck.wav'],
     ['/resources/Sucka.wav'],
-    ['/resources/Bloodlust_1.wav']
+    ['/resources/Bloodlust_1.ogg']
   ];
   var soundNum = Math.floor(Math.random() * sounds.length);
   if(soundNum == prevNum){
