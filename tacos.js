@@ -1,6 +1,22 @@
 var applyButton = function(){
-  alert("In game /w Makkura \"ayy gurl\" to join");
+  alert("Send an in game mail to Bri containing the text \"ayy gurl\" and 4 silver to join");
+  // var modal = document.getElementById("applyModal");
+  // modal.style.display = "block";
+  // var x = document.getElementById("post");
+  // x.style.display = "none";
+
+  // window.onclick = function(event){
+  //   if(event.target == modal){
+  //     modal.style.display = "none";
+  //   }
+  // }
 }
+// var appExitClick = function(){
+//   var x = document.getElementById("applyModal");
+//   x.style.display= "none";
+//   var z = document.getElementById("post");
+//   z.style.display= "block";
+// }
 
 var tacoClick = function(){
   var img = document.getElementById('content');

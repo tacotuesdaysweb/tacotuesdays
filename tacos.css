@@ -18,6 +18,41 @@ body{
   border-right: 1px solid #000000;
 }
 
+.appModal{
+  background: #C0C0C0;
+  margin: auto;
+  width: 500px;
+  height: 750px;
+  border-top: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  z-index: 1;
+  display:none;
+  font-family:Tahoma;
+}
+
+.txtBox{
+  background: rgb(255, 255, 255);
+  margin: auto;
+  width: 40%;
+  height: 18px;
+  border-bottom: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  font-family:Tahoma;
+  float: right;
+  margin-right: 20px;
+}
+
+.textArea{
+  font-family:Tahoma;
+  font-size:14px;
+  margin-left:15px;
+
+}
+
 div.title{
   height:18px;
   width:100%;
@@ -101,7 +136,7 @@ p.title{
   margin: 0% 1% 1% 1%;
   width: auto;
   background: #C0C0C0;
-  
+  font-family:Tahoma;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row; 
@@ -138,6 +173,7 @@ div.body button{
   display:block;
   position:relative;
   bottom:0px;
+  font-family:Tahoma;
 }
 button:focus{
   outline:none;
